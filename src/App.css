@@ -1,0 +1,189 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #fff;
+  height: 150px;
+  padding: 20px;
+  color: black;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Search-box {
+  background: #fff;
+  display: flex;
+  border-radius: 2px;
+  border: none;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  height: 44px;
+  margin: 25px auto;
+  width: 484px;
+}
+
+.Search-container {
+  padding: 16 5;
+  white-space: pre;
+  color: transparent;
+  line-height: 34px;
+  height: 100%;
+  display: block;
+  width: 100%;
+}
+
+.Search-input {
+  border: none;
+  width: 95%;
+  color: black;
+  padding: 0 3px;
+  margin: 5px 0;
+  height: 34px;
+  outline: none;
+  font: 16px arial,sans-serif;
+}
+
+.Button-box {
+  background: #fff;
+  display: flex;
+  border-radius: 2px;
+  border: none;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  height: 44px;
+  margin: 25px auto;
+  width: 200px;
+}
+
+.Button-container {
+  padding: 16 5;
+  white-space: pre;
+  color: transparent;
+  line-height: 34px;
+  height: 100%;
+  display: block;
+  width: 100%;
+}
+
+.Search-button {
+  border:1px;
+  border-radius: 2px;
+  outline: none;
+  background-color: #f2f2f2;
+  color: #757575;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  padding: 15px 10px;
+  height: 100%;
+
+}
+
+.Search-box-small {
+  background: #fff;
+  display: flex;
+  flex-wrap: nowrap;
+  border-radius: 2px;
+  border: none;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  height: 44px;
+  margin: 20px 20px;
+  width: 484px;
+
+}
+
+
+.Button-box-small {
+  background: #fff;
+  display: flex;
+  flex-wrap: nowrap;
+  border-radius: 2px;
+  border: none;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  height: 44px;
+  margin: 20px 0;
+  width: 200px;
+}
+.small{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+
+.Query-display {
+  font-size: large;
+  text-align: left;
+  margin: 0 0 0 10%;
+  width: 80%;
+}
+
+.Dates{
+  font-size: small;
+}
+.Filters{
+  font-size: small;
+}
+
+.tooltip {
+    color: red;
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
